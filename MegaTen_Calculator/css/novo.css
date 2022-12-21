@@ -1,0 +1,216 @@
+body{
+    background-image: url(../imagens/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+header nav, h1{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    background: #E8E8E8;
+    border-radius: 15px;
+    box-shadow: 0 0 0px 10px #E8E8E8;
+}
+
+form{
+    margin: 10px;
+}
+
+form input{
+    margin: 3px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#char input{
+    float: left;
+    width: 35%;
+    margin: 10px;
+}
+
+#char label{
+    float: left;
+    margin: 8px;
+    text-align: right;
+    width: 50%;
+}
+
+#expertises_1, #expertises_2, #chain{
+    float: left;
+    margin: 3px;
+    width: 24%;
+}
+
+
+#expertises_1 input, #expertises_2 input, #chain input{
+    width: 8%;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    float: none;
+}
+
+#expertises_1 label, #expertises_2 label, #chain label{
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    clear: both;
+    float: none;
+    white-space: nowrap;
+}
+
+#expertises_1 button, #expertises_2 button, #chain button{
+    float: right;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 2px;
+    margin-top: 12px;
+}
+
+#chain label{
+    width: 70%;
+    margin-right: 15px;
+}
+
+#equipment input{
+    margin: 5px;
+    padding: 5px;
+}
+
+#char{
+    float: left;
+    width: 25%;
+}
+
+
+#chain label{
+    width: 200px;
+}
+
+#equipment{
+    width: 100%;
+    clear: both;
+}
+
+#equipment label{
+    float: left;
+    margin: 7px;
+    margin-top: 10px;
+    text-align: right;
+    width: 100px;
+    clear: both;
+}
+
+#equipment input{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+}
+
+#char_stats, #demon_stats{
+    background-color:#C8C8C8;
+}
+
+#char_stats{
+    width: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+#char_stats label{
+    margin: 5px;
+    width: 35%;
+    display: block;
+    float: left;
+    white-space: nowrap;
+    margin-right: 50px;
+}
+
+#char_stats input{
+    width: 5%;
+    margin: 5px;
+    display: block;
+    float: left;
+}
+
+#demon_stats, #party_stats{
+    float: right;
+    width: 48.5%;
+    margin-right: 10px;
+}
+
+#demon_stats label, #party_stats label{
+    margin: 5px;
+    width: 35%;
+    float: right;
+    display: block;
+    margin-right: 50px;
+    
+}
+
+#demon_stats input, #party_stats input{
+    width: 5%;
+    margin: 5px;
+    display: block;
+    float: right;
+}
+
+#char_stats hr{
+    clear: both;
+}
+
+#demon_stats hr, #party_stats hr{
+    clear: both;
+}
+
+#share input{
+    display: block;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+#char_stats input #link{
+    display: block;
+    width: 75%;
+    clear: both;
+}
+
+#link {
+    display: block;
+    width: 100%;
+    clear: both;
+}

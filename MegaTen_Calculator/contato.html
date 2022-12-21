@@ -1,0 +1,37 @@
+<head>
+    <title>Trabalho</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/trabalho.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo_text.png">
+        <h1>Shin Megami Tensei: Imagine Tools</h1>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="database.html">Database</a></li>
+            <li><a href="calculadora.html">Build simulator</a></li>
+            <li><a href="https://www.reimagine.online/">Private server</a></li>
+            <li><a href="contato.html">Bug report</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <article>
+        <form action="destino.php" method="post">
+            <label for="ign">IGN/contact info</label><input type="text" id="ign">
+            <label for="area">Where did you find the bug?</label><select name="area" id="area">
+                <option value="database">Database</option>
+                <option value="calculadora">Calculadora</option>
+            </select>
+            <textarea></textarea>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </article>
+    
+    <footer><p>GrayRain#5513 on Discord</p></footer>
+</body>
